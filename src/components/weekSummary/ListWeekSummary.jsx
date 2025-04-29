@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Global } from "../../helpers/Global";
 
-export const ListWeekSummary = ({ selectedUser ,weeks ,setWeeks }) => {
+const ListWeekSummary = ({ selectedUser ,weeks ,setWeeks }) => {
 
 
   useEffect(() => {
@@ -51,3 +51,5 @@ export const ListWeekSummary = ({ selectedUser ,weeks ,setWeeks }) => {
     </div>
   );
 };
+
+export default ListWeekSummary;

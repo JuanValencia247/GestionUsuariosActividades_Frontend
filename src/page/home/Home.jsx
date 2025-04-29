@@ -5,8 +5,7 @@ import { ListUser } from "../../components/usuario/ListUser";
 import { CreateUser } from "../../components/usuario/CreateUser";
 import { CreateActivity } from "../../components/activities/CreateActivity";
 import { ListActivity } from "../../components/activities/ListActivity";
-import { HistoryWeeks } from "../../components/weekSummary/HistoryWeeks";
-import { ListWeekSummary } from "../../components/WeekSummary/ListWeekSummary";
+import  ListWeekSummary  from "../../components/weekSummary/ListWeekSummary";
 import { CreateWeekSummary } from "../../components/weekSummary/CreateWeekSummary";
 
 export const Home = () => {
