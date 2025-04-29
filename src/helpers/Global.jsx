@@ -1,3 +1,3 @@
 export const Global = {
-    url: "http://localhost:5000/api"
+    url: import.meta.env.API_URL
 };

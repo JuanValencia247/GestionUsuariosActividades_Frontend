@@ -53,7 +53,6 @@ export const Home = () => {
       });
 
       setActivities(sortedActivities);
-      console.log(sortedActivities);
     } catch (error) {
       console.log(error);
     }

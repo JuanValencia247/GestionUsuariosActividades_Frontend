@@ -8,7 +8,7 @@ export const ListWeekSummary = ({ selectedUser ,weeks ,setWeeks }) => {
     if (selectedUser) {
       getWeeks(selectedUser._id);
     }
-  }, [selectedUser]);
+  }, [selectedUser._id]);
 
   const getWeeks = async (userId) => {
     try {
